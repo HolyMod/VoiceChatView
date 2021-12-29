@@ -1,0 +1,7 @@
+{
+    "name": "VoiceChatView",
+    "author": "Strencher",
+    "version": "1.0.0",
+    "description": "Allows you have split view inside voice channels with a vc text.",
+    "entry": "./index.tsx"
+}

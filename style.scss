@@ -1,0 +1,47 @@
+.vcbtn-container {
+    color: #ddd;
+}
+
+.vcbtn-header-button {
+    margin-right: 10px;
+}
+
+.vcbtn-header-button > div {
+    display: inline-flex;
+}
+
+.vcbtn-channel-header {
+    display: flex;
+    cursor: pointer;
+}
+
+.vcbtn-dropdown {
+    display: flex;
+    width: 200px;
+    background: var(--background-floating);
+    height: 200px;
+    box-shadow: var(--elevation-high);
+    border-radius: 4px;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-right: 2px;
+}
+
+.vcbtn-dropdown-channel {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 5px;
+    min-height: 35px;
+}
+
+.vcbtn-dropdown-channel:hover {
+    background: var(--background-modifier-hover);
+}
+
+.vcbtn-dropdown-channel + .vcbtn-dropdown-channel {
+    margin-bottom: 5px;
+}
